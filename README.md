@@ -7,7 +7,7 @@
 This installs one specific package from the tap:
 
 ```sh
-brew install eu-ge-ne/tap/<formula>
+brew install eu-ge-ne/tap/toy
 ```
 
 ### Install tap
@@ -17,5 +17,5 @@ This is how you install the tap, so you will be able to see and install any pack
 ```sh
 brew tap eu-ge-ne/tap
 
-brew install <formula>
+brew install toy
 ```
