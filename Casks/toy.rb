@@ -1,8 +1,8 @@
 cask "toy" do
-  version "0.0.3"
+  version "0.0.4"
   sha256 :no_check
 
-  url "https://github.com/eu-ge-ne/homebrew-tap/releases/download/v0.0.3/toy.zip"
+  url "https://github.com/eu-ge-ne/homebrew-tap/releases/download/v0.0.4/toy.zip"
   name "toy"
   homepage "https://github.com/eu-ge-ne/homebrew-tap"
 
