@@ -1,4 +1,4 @@
-﻿class Toy < Formula
+class Toy < Formula
   desc "Minimalistic TUI text editor"
   homepage "https://github.com/eu-ge-ne/toy"
   url "https://github.com/eu-ge-ne/toy/archive/refs/tags/v0.0.19.tar.gz"
