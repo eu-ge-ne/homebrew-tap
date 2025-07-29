@@ -1,4 +1,4 @@
-class Toy < Formula
+﻿class Toy < Formula
   desc "Minimalistic TUI text editor"
   homepage "https://github.com/eu-ge-ne/toy"
   url "https://github.com/eu-ge-ne/toy/archive/refs/tags/v0.0.19.tar.gz"
@@ -17,6 +17,6 @@ class Toy < Formula
   end
 
   test do
-    assert_equal "toy 0.0.19", shell_output("#{bin}/toy --version")
+    assert_equal "toy 0.0.19\n", shell_output("#{bin}/toy --version")
   end
 end
