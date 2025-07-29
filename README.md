@@ -1,4 +1,4 @@
-# Eu-ge-ne Tap
+# eu-ge-ne's Homebrew tap
 
 ## How do I install these formulae?
 
