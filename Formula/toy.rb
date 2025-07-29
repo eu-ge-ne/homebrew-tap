@@ -6,6 +6,7 @@ class Toy < Formula
   license "MIT"
 
   bottle do
+    root_url "https://github.com/eu-ge-ne/toy/releases/download/v0.0.18"
     rebuild 1
     sha256 cellar: :any_skip_relocation, arm64_sequoia: "9727afce83e7f9876cc67ba7eea5c92fa733083c8577aa4405c3825c89a04277"
   end
