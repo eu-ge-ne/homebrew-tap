@@ -7,6 +7,7 @@ class Toy < Formula
 
   bottle do
     root_url "https://github.com/eu-ge-ne/toy/releases/download/v0.0.20"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "0db000bdca1c455f99039eca3bcb90817dbda0f86791181ec21aa38a61c14967"
   end
 
   depends_on "deno"
