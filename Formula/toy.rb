@@ -10,7 +10,7 @@ class Toy < Formula
     sha256 cellar: :any_skip_relocation, arm64_sequoia: "0db000bdca1c455f99039eca3bcb90817dbda0f86791181ec21aa38a61c14967"
   end
 
-  depends_on "deno"
+  depends_on "deno" => [:build]
 
   def install
     system "deno", "compile", "--frozen", "--reload", "--output", "toy", "-RW", "main.ts"
