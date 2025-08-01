@@ -1,13 +1,13 @@
 class Toy < Formula
   desc "Minimalistic TUI text editor"
   homepage "https://github.com/eu-ge-ne/toy"
-  url "https://github.com/eu-ge-ne/toy/archive/refs/tags/v0.0.20.tar.gz"
-  sha256 "4dbf2d26f64729d569e8634a22d2120504836702a7c8d99c0c8a412a204f7b72"
+  url "https://github.com/eu-ge-ne/toy/archive/refs/tags/v0.0.21.tar.gz"
+  sha256 "4d97ffbedcd0a86d6dd48a20d1e2a7218b44ad33c3748ac15dd0cb0ca8577898"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/eu-ge-ne/toy/releases/download/v0.0.20"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "0db000bdca1c455f99039eca3bcb90817dbda0f86791181ec21aa38a61c14967"
+    root_url "https://github.com/eu-ge-ne/toy/releases/download/v0.0.21"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "7c52076d0138bbd99a58e376f37e3cb001d2e7bea8fcd000995c4baad6940e78"
   end
 
   depends_on "deno" => [:build]
@@ -18,6 +18,6 @@ class Toy < Formula
   end
 
   test do
-    assert_equal "toy 0.0.20\n", shell_output("#{bin}/toy --version")
+    assert_equal "toy 0.0.21\n", shell_output("#{bin}/toy --version")
   end
 end
