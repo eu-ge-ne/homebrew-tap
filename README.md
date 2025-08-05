@@ -1,4 +1,4 @@
-# Eu-ge-ne Tap
+# eu-ge-ne/tap
 
 ## How do I install these formulae?
 
