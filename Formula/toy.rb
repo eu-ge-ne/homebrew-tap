@@ -13,6 +13,6 @@ class Toy < Formula
   end
 
   test do
-    assert_equal "toy 0.0.23\n", shell_output("#{bin}/toy --version")
+    assert_equal "toy 0.0.24\n", shell_output("#{bin}/toy --version")
   end
 end
