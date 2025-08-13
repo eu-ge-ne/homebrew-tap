@@ -1,8 +1,8 @@
 class Toy < Formula
   desc "Minimalistic TUI text editor"
   homepage "https://github.com/eu-ge-ne/toy"
-  url "https://github.com/eu-ge-ne/toy/archive/refs/tags/v0.0.25.tar.gz"
-  sha256 "d24351f3b5031ee94c5dc10d08d3637db9569226b79a733348744ad5f0b477bb"
+  url "https://github.com/eu-ge-ne/toy/archive/refs/tags/v0.0.26.tar.gz"
+  sha256 "e377e3964c95c68c463ed52d12f92b996c8bda702ec75adf96006fe986c33d73"
   license "MIT"
 
   bottle do
