@@ -6,9 +6,9 @@ class Toy < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/eu-ge-ne/homebrew-tap/releases/download/toy-0.0.25"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "122baef2005cf05cae6e9b76f25b6d020b7ad881eac59efb389b75705d5b52da"
-    sha256 cellar: :any_skip_relocation, ventura:       "7563b8d03b8053550762b82b18c69a8d54ca3f7fdf9e0f65487ca64a020a4353"
+    root_url "https://github.com/eu-ge-ne/homebrew-tap/releases/download/toy-0.0.26"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "1f1b9bf1de9e8a49967b9b0215ed2aa434d0038b04cb0e0c5d87c1d4d5999b51"
+    sha256 cellar: :any_skip_relocation, ventura:       "b1fc244c619dbea74a35b1679fbf4367bb2920b5689bbcd52af5dd573039f9c9"
   end
 
   depends_on "deno" => [:build]
