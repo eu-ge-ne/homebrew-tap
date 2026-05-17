@@ -14,7 +14,7 @@ class Toy < Formula
   depends_on "deno" => [:build]
 
   def install
-    system "deno", "compile", "--frozen", "--reload", "--output", "toy", "-ERW", "main.ts"
+    system "deno", "compile", "--frozen", "--reload", "--output", "toy", "-ERW", "src/main.ts"
     bin.install "toy"
   end
 
