@@ -13,6 +13,12 @@ tap "eu-ge-ne/tap"
 brew "<formula>"
 ```
 
+## Release
+
+```bash
+brew bump-formula-pr --version 0.0.30 eu-ge-ne/tap/toy
+```
+
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
