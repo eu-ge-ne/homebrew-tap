@@ -19,7 +19,6 @@ class Toy < Formula
   end
 
   test do
-    # assert_match "toy 0.0.30 (deno 2", shell_output("#{bin}/toy --version")
-    assert_match shell_output(testpath/"bin/test-build.sh"), shell_output("#{bin}/toy -v")
+    assert_match "toy #{version} (deno 2", shell_output("#{bin}/toy --version")
   end
 end
