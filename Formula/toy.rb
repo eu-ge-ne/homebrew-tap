@@ -4,13 +4,14 @@ class Toy < Formula
   url "https://github.com/eu-ge-ne/toy/archive/refs/tags/v0.0.30.tar.gz"
   sha256 "84c506eaa424634c9cc0381edc7ac1f4e3a045487e4a3cc8ef08814f258fe1f3"
   license "MIT"
+  revision 1
 
   bottle do
     root_url "https://github.com/eu-ge-ne/homebrew-tap/releases/download/toy-0.0.30"
     sha256 cellar: :any_skip_relocation, arm64_tahoe: "04fe4908a74a4181b2ca875c776ab219731c43314544eef0afff49c2dac2f7af"
   end
 
-  depends_on "deno" => [:build]
+  depends_on "deno" => :build
 
   def install
     system "deno", "compile", "--frozen", "--reload", "--output", "toy", "-ERW", "src/main.ts"
