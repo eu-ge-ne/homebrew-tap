@@ -18,7 +18,7 @@ class Toy < Formula
     bin.install "toy"
   end
 
-  #test do
-  #  assert_match "toy 0.0.28 (deno 2", shell_output("#{bin}/toy --version")
-  #end
+  test do
+    assert_match "toy 0.0.28 (deno 2", shell_output("#{bin}/toy --version")
+  end
 end
