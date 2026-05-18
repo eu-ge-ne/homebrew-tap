@@ -7,8 +7,8 @@ class Toy < Formula
   revision 2
 
   bottle do
-    root_url "https://github.com/eu-ge-ne/homebrew-tap/releases/download/toy-0.0.30"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "04fe4908a74a4181b2ca875c776ab219731c43314544eef0afff49c2dac2f7af"
+    root_url "https://github.com/eu-ge-ne/homebrew-tap/releases/download/toy-0.0.30_2"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "8f5e9f731365cdcd6621667685cb37ae0beaaaf058be9d75dfc0803b1a4ae1d6"
   end
 
   depends_on "deno" => :build
